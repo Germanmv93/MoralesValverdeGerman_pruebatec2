@@ -24,9 +24,10 @@ Para lanzar el proyecto se deben seguir los siguientes pasos:
 ## Contacto
 
 - **Nombre**: German Morales
-- **LinkedIn**: [Perfil de LinkedIn](https://www.linkedin.com/in/germ%C3%A1n-morales-942100254/)
+- **Link del Proyecto**: [MoralesValverdeGerman_pruebatec2](https://github.com/Germanmv93/MoralesValverdeGerman_pruebatec2)
 
 El programa funciona correctamente para mi, en caso de cualquier duda o problema puede contactarme de las siguientes formas:
   
 - **Correo Electrónico**: [germanmv1993@gmail.com](mailto:germanmv1993@gmail.com)
-- **Link del Proyecto**: [MoralesValverdeGerman_pruebatec2](https://github.com/Germanmv93/MoralesValverdeGerman_pruebatec2)
+- **LinkedIn**: [Perfil de LinkedIn](https://www.linkedin.com/in/germ%C3%A1n-morales-942100254/)
+
