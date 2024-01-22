@@ -1,0 +1,14 @@
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\servlets\SvCiudadano.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\logica\Controladora.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\JAXRSConfiguration.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\servlets\SvCrearTurno.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\persistencia\CiudadanoJpaController.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\persistencia\ControladoraPersistencia.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\logica\Ciudadano.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\persistencia\exceptions\IllegalOrphanException.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\persistencia\exceptions\PreexistingEntityException.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\servlets\SvBorrarTurno.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\persistencia\exceptions\NonexistentEntityException.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\resources\JavaEE8Resource.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\logica\Turno.java
+C:\Users\germa\Documents\NetBeansProjects\PruebaTec2\src\main\java\com\moralesvalverdegerman\pruebatec2\persistencia\TurnoJpaController.java

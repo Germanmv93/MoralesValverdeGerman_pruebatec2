@@ -1,0 +1,16 @@
+com\moralesvalverdegerman\pruebatec2\servlets\SvCrearTurno.class
+com\moralesvalverdegerman\pruebatec2\logica\Turno.class
+com\moralesvalverdegerman\pruebatec2\logica\Controladora.class
+com\moralesvalverdegerman\pruebatec2\persistencia\CiudadanoJpaController.class
+com\moralesvalverdegerman\pruebatec2\persistencia\exceptions\IllegalOrphanException.class
+com\moralesvalverdegerman\pruebatec2\logica\Ciudadano_.class
+com\moralesvalverdegerman\pruebatec2\logica\Turno_.class
+com\moralesvalverdegerman\pruebatec2\persistencia\exceptions\NonexistentEntityException.class
+com\moralesvalverdegerman\pruebatec2\resources\JavaEE8Resource.class
+com\moralesvalverdegerman\pruebatec2\JAXRSConfiguration.class
+com\moralesvalverdegerman\pruebatec2\persistencia\exceptions\PreexistingEntityException.class
+com\moralesvalverdegerman\pruebatec2\persistencia\TurnoJpaController.class
+com\moralesvalverdegerman\pruebatec2\persistencia\ControladoraPersistencia.class
+com\moralesvalverdegerman\pruebatec2\servlets\SvBorrarTurno.class
+com\moralesvalverdegerman\pruebatec2\logica\Ciudadano.class
+com\moralesvalverdegerman\pruebatec2\servlets\SvCiudadano.class
