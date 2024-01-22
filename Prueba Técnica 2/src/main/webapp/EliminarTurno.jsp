@@ -107,12 +107,7 @@
                         <span>Acerca de este proyecto</span></a>
                 </li>
 
-                <!-- Nav Item - Tables -->
-                <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
-                        <i class="fas fal fa-address-card"></i>
-                        <span>Contacto</span></a>
-                </li>
+
 
             </ul>
             <!-- End of Sidebar -->

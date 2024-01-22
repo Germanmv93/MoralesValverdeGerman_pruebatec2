@@ -24,9 +24,6 @@ public class ControladoraPersistencia {
         turnoPu.create(turno);
     }
 
-//    public Ciudadano traerDniCiudadano(String dni) {
-//        return ciudadPu.findCiudadano(dni);
-//    }
 
     public void borrarTurno(Long id) {
         try {
@@ -50,5 +47,21 @@ public class ControladoraPersistencia {
 
     public Turno traerTurnoPorId(Long id) {
         return turnoPu.traerTurnoPorId(id);
+    }
+
+    public List<Ciudadano> traerCiudadanos() {
+        return ciudadPu.traerCiudadano();
+    }
+
+    public void actualizarTurno(Turno turno) {
+        try {
+            turnoPu.edit(turno);
+        } catch (Exception ex) {
+            Logger.getLogger(ControladoraPersistencia.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    }
+
+    public Ciudadano traerCiudadanoPorDni(String dni) {
+        return ciudadPu.findCiudadano(dni);
     }
 }

@@ -68,7 +68,7 @@ public class Turno implements Serializable {
     public void setCiudadano(Ciudadano ciudadano) {
         this.ciudadano = ciudadano;
     }
-
+    
     @Override
     public String toString() {
         return "Turno{" + "id=" + id + ", fecha=" + fecha + ", descripcion=" + descripcion + ", estado=" + estado + ", ciudadano=" + ciudadano + '}';

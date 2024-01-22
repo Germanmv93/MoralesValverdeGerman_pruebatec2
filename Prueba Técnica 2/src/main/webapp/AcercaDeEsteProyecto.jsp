@@ -69,11 +69,6 @@
                         <i class="fas far fa-info-circle"></i>
                         <span>Acerca de este proyecto</span></a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
-                        <i class="fas fal fa-address-card"></i>
-                        <span>Contacto</span></a>
-                </li>
             </ul>
             <div id="content-wrapper" class="d-flex flex-column">
                 <div id="content">

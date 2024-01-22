@@ -106,13 +106,6 @@
                         <span>Acerca de este proyecto</span></a>
                 </li>
 
-                <!-- Nav Item - Tables -->
-                <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
-                        <i class="fas fal fa-address-card"></i>
-                        <span>Contacto</span></a>
-                </li>
-
             </ul>
             <!-- End of Sidebar -->
 
@@ -142,25 +135,28 @@
                             <h2>Buscar Turnos por DNI</h2>
                             <form action="SvBuscarDni" method="GET"> <!-- Asegúrate de que la acción apunte a tu servlet -->
                                 <label for="dni">DNI:</label>
-                                <input type="text" id="dni" name="dni" required>
-                                <button type="submit">Buscar</button>
-                            </form>
+                                <input class="btn btn-outline-info" type="text" id="dni" name="dni" required>
+                                <button class="btn btn-outline-dark" type="submit">Buscar</button>
 
+                                <a class="btn btn-outline-dark" href="EliminarTurno.jsp">Volver</a>
+                            </form>
                             <%
                                 List<Turno> turnos = (List<Turno>) request.getAttribute("turnos");
                                 if (turnos != null) {
                             %>
                             <table class="table table-striped table-hover table-bordered">
-                                <tr class="thead-dark">
+                                <tr class="thead-light">
                                     <th>Id</th>
                                     <th>Fecha</th>
                                     <th>Descripción</th>
+                                    <th>Estado</th>
                                 </tr>
                                 <% for (Turno turno : turnos) {%>
                                 <tr>
                                     <td><%= turno.getId()%></td>
                                     <td><%= turno.getFecha()%></td>
                                     <td><%= turno.getDescripcion()%></td>
+                                    <td><%= turno.isEstado()? "Atendido" : "En espera" %></td>
                                 </tr>
                                 <% } %>
                             </table>

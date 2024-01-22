@@ -1,7 +1,6 @@
 package com.moralesvalverdegerman.pruebatec2.logica;
 
 import com.moralesvalverdegerman.pruebatec2.persistencia.ControladoraPersistencia;
-import java.time.LocalDate;
 import java.util.List;
 
 public class Controladora {
@@ -15,10 +14,6 @@ public class Controladora {
     public void crearTurno (Turno turno){
         controlPersis.crearTurno(turno);
     }
-    
-//    public Ciudadano traerDniCiudadano (String dni){
-//        return controlPersis.traerDniCiudadano(dni);
-//    }
     
     public void borrarTurno(Long id){
         controlPersis.borrarTurno(id);
@@ -38,6 +33,18 @@ public class Controladora {
 
     public Turno traerTurnosPorId(Long id) {
         return controlPersis.traerTurnoPorId(id);
+    }
+    
+    public List<Ciudadano> traerCiudadanos(){
+        return controlPersis.traerCiudadanos();
+    }
+    
+    public void actualizarTurno(Turno turno){
+        controlPersis.actualizarTurno(turno);
+    }
+
+    public Ciudadano traerCiudadanoPorDni(String dni) {
+        return controlPersis.traerCiudadanoPorDni(dni);
     }
 
 }

@@ -10,7 +10,9 @@ com\moralesvalverdegerman\pruebatec2\resources\JavaEE8Resource.class
 com\moralesvalverdegerman\pruebatec2\JAXRSConfiguration.class
 com\moralesvalverdegerman\pruebatec2\persistencia\exceptions\PreexistingEntityException.class
 com\moralesvalverdegerman\pruebatec2\persistencia\TurnoJpaController.class
+com\moralesvalverdegerman\pruebatec2\servlets\SvBuscarDni.class
 com\moralesvalverdegerman\pruebatec2\persistencia\ControladoraPersistencia.class
 com\moralesvalverdegerman\pruebatec2\servlets\SvBorrarTurno.class
 com\moralesvalverdegerman\pruebatec2\logica\Ciudadano.class
 com\moralesvalverdegerman\pruebatec2\servlets\SvCiudadano.class
+com\moralesvalverdegerman\pruebatec2\servlets\SvEditarTurno.class

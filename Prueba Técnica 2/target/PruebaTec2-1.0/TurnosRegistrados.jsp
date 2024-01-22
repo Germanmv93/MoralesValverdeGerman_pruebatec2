@@ -106,12 +106,7 @@
                         <span>Acerca de este proyecto</span></a>
                 </li>
 
-                <!-- Nav Item - Tables -->
-                <li class="nav-item">
-                    <a class="nav-link" href="tables.html">
-                        <i class="fas fal fa-address-card"></i>
-                        <span>Contacto</span></a>
-                </li>
+
 
             </ul>
             <!-- End of Sidebar -->
@@ -183,7 +178,7 @@
                                     </div>
                                 </div>
                                 <div class="card-body">
-                                    <table id="datatablesSimple" class="table table-striped table-bordered table-hover">
+                                    <table class="table table-striped table-bordered table-hover">
                                         <thead>
                                             <tr>
                                                 <th>Id</th>
@@ -207,10 +202,9 @@
                                                     <%= turno.getCiudadano().getNombre()%><%= " "%><%= turno.getCiudadano().getApellidos()%>
                                                     <% } %>
                                                 </td>
-
                                                 <td>
                                                     <div style="display: flex; justify-content: space-between; align-items: center">
-                                                        <% if (turno.isEstado() == false) { %>
+                                                        <% if (!turno.isEstado()) { %>
                                                         <div class="text-danger fw-semibold">En espera</div>
                                                         <% } else { %>
                                                         <div class="text-success fw-semibold">Atendido</div>
@@ -218,16 +212,16 @@
                                                     </div>
                                                 </td>
                                                 <td>
-                                                    <form action="SvEditarTurno" method="GET">
-                                                        <input type="hidden" name="id" value="<%=turno.getId()%>">
-                                                        <button class="btn btn-outline-secondary px-4" type="submit" style="font-size: 10px; font-weight: 600">
-                                                            Editar
+                                                    <form action="SvEditarTurno" method="POST">
+                                                        <input type="hidden" name="turnoId" value="<%= turno.getId()%>">
+                                                        <input type="hidden" name="nuevoEstado" value="<%= !turno.isEstado()%>">
+                                                        <button class="btn btn-outline-secondary px-4" type="submit" style="font-size: 15px; font-weight: 800">
+                                                            Alternar estado
                                                         </button>
                                                     </form>
                                                 </td>
-
                                             </tr>
-                                            <% }%>
+                                            <% } %>
                                         </tbody>
                                     </table>
                                 </div>

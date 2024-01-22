@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.moralesvalverdegerman.pruebatec2.persistencia;
 
 import com.moralesvalverdegerman.pruebatec2.logica.Ciudadano;
@@ -19,10 +15,7 @@ import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
-/**
- *
- * @author germa
- */
+
 public class CiudadanoJpaController implements Serializable {
 
     public CiudadanoJpaController(EntityManagerFactory emf) {
@@ -192,6 +185,15 @@ public class CiudadanoJpaController implements Serializable {
             cq.select(em.getCriteriaBuilder().count(rt));
             Query q = em.createQuery(cq);
             return ((Long) q.getSingleResult()).intValue();
+        } finally {
+            em.close();
+        }
+    }
+
+    List<Ciudadano> traerCiudadano() {
+        EntityManager em = emf.createEntityManager();
+        try {
+            return em.createQuery("SELECT c FROM Ciudadano c", Ciudadano.class).getResultList();
         } finally {
             em.close();
         }
